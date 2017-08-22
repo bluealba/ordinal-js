@@ -24,7 +24,7 @@ the library and add i18n support.
 
 Converting a number to its ordinal representation is as simple as:
 
-## Example
+#### Example
 ```javascript
 const ordinal = require("ordinal-js");
 
@@ -37,7 +37,7 @@ console.log(ordinal.toOrdinal(4)) // "4th"
 Also the function `ordinalSuffix(number)` is available and will return the suffix
 itself without prepending the number to it.
 
-## Example
+#### Example
 ```javascript
 const ordinal = require("ordinal-js");
 
@@ -51,7 +51,7 @@ If you don't care about prototypes pollution you can invoke the `ordinal` functi
 itself and it will add two new methods (`toOrdinal()` and `ordinalSuffix()`) to
 Number's prototype.
 
-## Example
+#### Example
 ```javascript
 const ordinal = require("ordinal-js");
 ordinal(); //only needed once
@@ -72,9 +72,9 @@ This section describes every method in the ordinal object
 #### Description
 Returns the ordinal representation of the number
 ```
-@param      {Number}  number  a number, if type of the provided element is not a number then function will throw a TypeError. If NaN then "NaN" will be returned.
-@param      {Function} transform  an optional function that will be invoked with the suffix associated to the number. This can be used to perform some transformation before appending the suffix to the number itself.
-@throws     {TypeError}            Throws error if the provided number is not a number.
+@param      {Number} number       - a number, if type of the provided element is not a number then function will throw a TypeError. If NaN then "NaN" will be returned.
+@param      {Function} transform  - an optional function that will be invoked with the suffix associated to the number. This can be used to perform some transformation before appending the suffix to the number itself.
+@throws     {TypeError}           - if the provided parameter is not a number.
 ```
 #### Example
 ```javascript
@@ -88,8 +88,8 @@ console.log(ordinal.toOrdinal(12, suffix => ` ${suffix.toUpperCase()}`)) //12 TH
 #### Description
 Returns the ordinal suffix for the given number
 ```
-@param      {Number}  number  a number, if type of the provided element is not a number then function will throw a TypeError. If NaN undefined will be returned.
-@throws     {TypeError}            Throws error if the provided number is not a number.
+@param      {Number} number - a number, if type of the provided element is not a number then function will throw a TypeError. If NaN undefined will be returned.
+@throws     {TypeError}     -  the provided parameter is not a number.
 ```
 #### Example
 ```javascript
