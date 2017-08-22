@@ -1,6 +1,6 @@
 {
   "name": "ordinal-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to convert from numbers to their ordinal representations",
   "main": "index.js",
   "author": "Claudio Fernandez <claudio.fernandez@bluealba.com>",
