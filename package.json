@@ -1,0 +1,28 @@
+{
+  "name": "ordinal-js",
+  "version": "1.0.0",
+  "description": "Utility to convert from numbers to their ordinal representations",
+  "main": "index.js",
+  "author": "Claudio Fernandez <claudio.fernandez@bluealba.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "eslint": "^4.5.0",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0"
+  },
+  "scripts": {
+    "test": "eslint '.' && nyc --reporter=html --reporter=text mocha",
+    "lint": "eslint '.'",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "keywords": [
+		"utility",
+		"formatting",
+		"ordinal",
+		"nth",
+		"th",
+		"nd",
+		"st"
+	]
+}
