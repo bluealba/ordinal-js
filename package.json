@@ -7,6 +7,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.1",
+    "coveralls": "^2.13.1",
     "eslint": "^4.5.0",
     "mocha": "^3.5.0",
     "nyc": "^11.1.0"
@@ -17,16 +18,16 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
-		"utility",
-		"formatting",
-		"ordinal",
-		"nth",
-		"th",
-		"nd",
-		"st"
-	],
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/bluealba/ordinal-js"
-	}
+    "utility",
+    "formatting",
+    "ordinal",
+    "nth",
+    "th",
+    "nd",
+    "st"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluealba/ordinal-js"
+  }
 }
