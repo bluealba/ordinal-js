@@ -1,6 +1,6 @@
 "use strict";
 
-const ordinal = require("../index"),
+const ordinal = require("../src/ordinal-js"),
 	chai = require("chai");
 
 chai.should();
@@ -10,8 +10,6 @@ describe("ordinal-js", () => {
 	describe("toOrdinal()", () => {
 
 		context("when language is english", () => {
-
-
 
 			// Numbers ending in 1
 			it("1 should be transformed to 1st", () => {
