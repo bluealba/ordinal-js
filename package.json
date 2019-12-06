@@ -14,7 +14,7 @@
     "coveralls": "^2.13.1",
     "eslint": "^4.5.0",
     "mocha": "^3.5.0",
-    "nyc": "^11.1.0"
+    "nyc": "^14.1.1"
   },
   "scripts": {
     "build": "babel src --out-dir dist",
